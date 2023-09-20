@@ -1,0 +1,158 @@
+.skill-page {
+  .resume-zone {
+    position: absolute;
+    left: 100%;
+    // right: ;
+    top: 110%;
+    transform: translateY(0%);
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: #795695;
+      font-weight: 400;
+      margin-top: -280px;
+      margin-left: 100px;
+      margin-right: -10%;
+      position: relative;
+      margin-bottom: 40px;
+      left: 100px;
+
+      &::before {
+        content: '<h1>';
+        color: #160fa3;
+        font-family: 'La Belle Aurore';
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.5;
+        line-height: 18px;
+      }
+      &::after {
+        content: '</h1>';
+        color: #160fa3;
+        font-family: 'La Belle Aurore';
+        font-size: 18px;
+        position: absolute;
+        opacity: 0.5;
+        line-height: 100px;
+        left: -30px;
+        bottom: -55px;
+        margin-left: 15px;
+      }
+    }
+    ul {
+      list-style-type: square;
+      //   font-size: 18px;
+      font-size: 13px;
+      color: #311432;
+      font-weight: 100;
+      font-family: sans-serif;
+      font-weight: 300;
+      //   left: 10px;
+      min-width: fit-content;
+      animation: pulse 1s;
+      li {
+        padding: 1%;
+        margin-left: 30%;
+        margin-right: -35%;
+      }
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+    }
+    .college-block {
+      width: 90%;
+      padding: 7px;
+      text-align: left;
+      font-size: 15px;
+      color: #fff;
+      background-color: #795695;
+      border: #795695 2px solid;
+      border-radius: 20px;
+      margin-left: 35%;
+      margin-right: -20%;
+
+      .year {
+        background-color: #311432;
+        font-size: 10px;
+        margin-left: 25%;
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 1px;
+      }
+    }
+    div {
+      /* .resume-download {
+        padding: 10%;
+      } */
+      display: block;
+      text-align: left;
+      margin: 10px;
+      button {
+        width: 30%;
+        border: 2px solid #c64b8c;
+        border-radius: 10px;
+        color: #c64b8c;
+        background-color: #fff;
+        font-style: normal;
+        font-weight: 600;
+        font-family: 'La Belle Aurore';
+        white-space: nowrap;
+        letter-spacing: 3px;
+        padding: 8px 6px;
+        animation: fadeIn 1s 1.8s forwards;
+        animation-delay: 1.2s;
+
+        &:hover {
+          width: 30%;
+          color: #fff;
+          background-color: #c64b8c;
+          /* color: #c64b8c;
+          just casual not related
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: 4px;
+          font-family: sans-serif;
+          text-decoration: none;
+          padding: 10px 18px;
+          border: 1px solid #c64b8c;
+          animation: fadeIn 1s 1.8s backwards;
+          white-space: nowrap; */
+        }
+      }
+      .ghclass {
+        text-align: center;
+        width: 37%;
+        display: block;
+        margin-left: -3%;
+        margin-top: 1%;
+        font-size: 16px;
+        padding: 5px 0px;
+        letter-spacing: 3px;
+        /* margin-left: 35%;
+      margin-right: -20%; */
+
+        &:hover {
+          width: 37%;
+          color: #fff;
+          background-color: #c64b8c;
+        }
+      }
+      .ghclass svg {
+        margin-right: 8px;
+      }
+    }
+  }
+}

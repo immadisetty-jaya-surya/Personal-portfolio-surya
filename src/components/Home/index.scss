@@ -1,0 +1,76 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+  h1 {
+    color: #a172ab /* #c64b8c */ /* #b100cd */;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'coolvetica';
+    font-weight: 550;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #702963 /* #160fa3 */;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: 15px;
+      opacity: 0.6;
+    }
+    &::after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore';
+      color: #702963;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 40px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+    img {
+      width: 65px;
+      height: auto;
+      top: 26px;
+      right: -7px;
+      opacity: 0;
+      margin-left: 20px;
+      position: relative;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.2s;
+    }
+  }
+  h2 {
+    color: #795695;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+  .contact-button {
+    color: #c64b8c;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #c64b8c;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #c64b8c;
+      color: #333;
+    }
+  }
+}
