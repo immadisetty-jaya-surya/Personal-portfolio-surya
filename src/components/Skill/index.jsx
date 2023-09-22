@@ -48,11 +48,10 @@ const Skill = () => {
           </p>
           <p>
             I'm not a designer but I have a good sense of aesthetics, and
-            experience in responsive, mobile-first web design. I put special
-            effort into optimizing my code and providing the best user
-            experience.I would love to give you any kind of support also after
-            the projects completion. I guarantee a commitment during work on
-            your project.
+            experience in responsive web design. I put special effort into
+            optimizing my code and providing the best user experience.I would
+            love to give you any kind of support also after the projects
+            completion. I guarantee a commitment during work on your project.
           </p>
           <div className="resume-zone">
             <h1>

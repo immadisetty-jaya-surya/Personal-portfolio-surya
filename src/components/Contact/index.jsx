@@ -97,25 +97,23 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Jaya-Surya-Immadisetty,
+          Jaya Surya Immadisetty,
           <br />
           India,
           <br />
-          beside ravindra nursing home,D.no: 2-408, <br />
-          Yerragondapalem <br />
-          <p>
-            PHONE-NUMBER-1: +91-8639504275 <br /> PHONE-NUMBER-2: +91-7396404275{' '}
-          </p>
+          Markapuram, AP.
+          <br />
+          <p>PHONE-NUMBER-1: +91-8639504275</p>
           <span>suryaimmadisetty5252@gmail.com </span>
         </div>
-        <div className="map-wrap">
+        {/* <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.96366, 19.61045]}>
               <Popup>I(surya) lives here </Popup>
             </Marker>
           </MapContainer>
-        </div>
+        </div> */}
       </div>
       <Loader type="pacman" />
     </>
