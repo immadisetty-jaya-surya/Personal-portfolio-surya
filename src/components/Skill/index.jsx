@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import resume from '../Skill/Simple_Professional_CV surya resume prof of.pdf'
+import resume from './myResume.pdf'
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Skill = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
