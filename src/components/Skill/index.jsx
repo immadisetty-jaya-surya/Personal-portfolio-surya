@@ -12,11 +12,42 @@ const Skill = () => {
     const resumePath = resume
     const link = document.createElement('a')
     link.href = resumePath
-    link.setAttribute('download', 'My_Resume.pdf')
-    document.body.appendChild(link)
+    // link.setAttribute('download', 'My_Resume.pdf')
+    link.setAttribute('target', '_blank')
+    // document.body.appendChild(link)
     link.click()
-    document.body.removeChild(link)
+    // document.body.removeChild(link)
   }
+
+  // const handleDownload = () => {
+  //   const resumePath = /* './myResume.pdf'; */ resume
+  //   const iframe = document.createElement('iframe')
+  //   iframe.src = resumePath
+  //   iframe.style.width = '100%'
+  //   // iframe.style.height = '600px' // Adjust the height as needed
+  //   iframe.style.height = '100%' // Adjust the height as needed
+  //   iframe.style.position = 'absolute'
+  //   iframe.style.top = '0'
+  //   iframe.style.left = '0'
+  //   iframe.style.zIndex = '9999'
+  //   document.body.appendChild(iframe)
+
+  /* const closeIframe = () => {
+      document.body.removeChild(iframe)
+      document.removeEventListener('click', closeIframe)
+    }
+
+    document.addEventListener('click', closeIframe)
+
+    const closeIframe = () => {
+      document.body.removeChild(iframe)
+      document.removeEventListener('click', closeIframe)
+      // Optionally, you can navigate back to the original page here
+      // Example: window.location.href = '/original-page';
+    }
+
+    document.addEventListener('click', closeIframe) */
+
   useEffect(() => {
     const timerId = setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -63,7 +94,7 @@ const Skill = () => {
             </h1>
             <ul>
               <li>
-                I have completed my 10th standard in Dr,kkr's Gowtham school
+                I have completed my 10th standard in Dr.kkr's Gowtham school
                 from guntur with 9.5 CGPA
               </li>
               <li>
@@ -81,7 +112,9 @@ const Skill = () => {
               <span className="year">2019-Present</span>
             </div>
             <div className="resume-download">
-              <button onClick={handleDownload}>Download Resume</button>
+              <button onClick={handleDownload}>
+                {/* Download */}view my Resume
+              </button>
               <button className="ghclass">
                 <a
                   className="ghlink"

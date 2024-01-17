@@ -52,7 +52,7 @@ const Contact = () => {
           <p>
             I am interested in freelance opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            questions, do not hesitate to contact me using below form either.
           </p>
           <p>
             I am available on almost every social media. You can message me, I
