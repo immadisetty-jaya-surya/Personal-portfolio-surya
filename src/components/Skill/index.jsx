@@ -72,13 +72,12 @@ const Skill = () => {
           <p>
             Expert in front-end development including technologies like-
             <span className="skill-highlight">
-              HTML5,CSS3, JavaScript, React, python, github, Bootstrap, Sass,
-              Git, Axios,
+              HTML5,CSS3, JavaScript, React JS, TypeScript, Next JS, github,
+              Tailwind CSS, Scss, Git, Axios etc.
             </span>
-            etc.
           </p>
           <p>
-            I'm not a designer but I have a good sense of aesthetics, and
+            I am not a designer but I have a good sense of aesthetics, and
             experience in responsive web design. I put special effort into
             optimizing my code and providing the best user experience.I would
             love to give you any kind of support also after the projects
@@ -94,15 +93,15 @@ const Skill = () => {
             </h1>
             <ul>
               <li>
-                I have completed my 10th standard in Dr.kkr's Gowtham school
+                I have completed my 10th standard in Dr.KKR's Gowtham school
                 from guntur with 9.5 CGPA
               </li>
               <li>
-                I have completed my Intermediate standard in Sri chaitanya
+                I have completed my Intermediate standard in Sri Chaitanya
                 junior college from vijayawada with 9.23 CGPA
               </li>
               <li>
-                I have completed my engineering in sathyabama university and
+                I have completed my engineering in Sathyabama University and
                 passed out with 8.77 CGPA
               </li>
             </ul>
@@ -121,9 +120,10 @@ const Skill = () => {
                   href="https://github.com/immadisetty-jaya-surya"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
-                <FontAwesomeIcon icon={faGithub} />
-                View all Projects
+                >
+                  <FontAwesomeIcon icon={faGithub} />
+                  View all Projects
+                </a>
               </button>
             </div>
           </div>

@@ -49,7 +49,7 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
+          {/* <p>
             I am interested in freelance opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, do not hesitate to contact me using below form either.
@@ -59,7 +59,7 @@ const Contact = () => {
             will reply within 24 hours. I can help you withReact, Android,
             Cloud, React-Native, Javascript, Disocrd-bots and Opensource
             Development.
-          </p>
+          </p> */}
           <div className="contact-form">
             <form action="" ref={refForm} onSubmit={sendEmail}>
               <ul>
@@ -98,12 +98,12 @@ const Contact = () => {
         </div>
         <div className="info-map">
           Jaya Surya Immadisetty,
+          {/* <br />
+          India, */}
           <br />
-          India,
+          Markapuram, AP, India.
           <br />
-          Markapuram, AP.
-          <br />
-          <p>PHONE-NUMBER-1: +91-8639504275</p>
+          <p>PHONE-NUMBER-1: +91-7396404275</p>
           <span>suryaimmadisetty5252@gmail.com </span>
         </div>
         {/* <div className="map-wrap">

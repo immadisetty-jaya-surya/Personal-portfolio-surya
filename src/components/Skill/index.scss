@@ -141,8 +141,9 @@
         font-size: 16px;
         padding: 5px 0px;
         letter-spacing: 3px;
-        /* margin-left: 35%;
-      margin-right: -20%; */
+        margin-left: -3%;
+        margin-right: -20%;
+        // color: #fff;
 
         &:hover {
           width: 37%;
@@ -152,6 +153,16 @@
       }
       .ghclass svg {
         margin-right: 8px;
+      }
+      /* Define new .ghlink class */
+      .ghlink {
+        color: #c64b8c; /* Set link text color to white */
+        text-decoration: none; /* Remove underline */
+        transition: color 0.3s ease; /* Smooth transition for color change */
+
+        &:hover {
+          color: #fff; /* Change link text color on hover */
+        }
       }
     }
   }
